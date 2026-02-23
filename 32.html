@@ -1,0 +1,37 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>count down</title>
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/css/style1.css">
+    </head>
+    <body>
+        
+        <div class="main">
+            <button class ="reset" onclick="reset()">🔄</button>
+            <div class =smain>
+                <div class="home">
+                    <h1>HOME</h1>
+                    <div class="score">
+                        <h2 id="homescore" class="fscore">0</h2>
+                    </div>
+                    <button class="one" onclick="addone()">+1</button>
+                    <button class="two" onclick="addtwo()">+2</button>
+                    <button class="three" onclick="addthree()">+3</button>
+                </div>
+                <div class="guest">
+                    <h1>GUEST</h1>
+                    <div class="score">
+                        <h2 id="guestscore" class="fscore">0</h2>
+                    </div>
+                    <button class="gone" onclick="gaddone()">+1</button>
+                    <button class="gtwo" onclick="gaddtwo()">+2</button>
+                    <button class="gthree" onclick="gaddthree()">+3</button>
+                    <script src="./index.js"></script>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
